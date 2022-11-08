@@ -1,4 +1,23 @@
-
+	/*
+	author: Ulises Gallardo
+	
+	In this case, having a SegmentTree with the maximum value between ranges 
+	it is possible find the first Hotel (leaf) that has enough rooms. 
+	But it imporant to keep the index of that hotel. 
+	
+	Thus, an important idea is check the childs of the current node 
+	and then follow these cases:
+	1) always visit left child first 
+	(because probably contains the first Hotel that has enough rooms) 
+	until reach a leaf, after that update the value of the Hotel recursively
+	consider always the maximum value.
+	2)Do the same with right child in case there are no rooms in left node. 
+	3)If left and right child doesn't have information about a Hotel 
+	with enough rooms, then it returns an invalid index and shows 0. 
+	
+	*/
+	
+	
 	#include <bits/stdc++.h>
 	using namespace std;
 	#define INF 999999999999999;

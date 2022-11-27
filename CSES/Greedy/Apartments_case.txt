@@ -1,0 +1,7 @@
+k = 5
+65 66
+60 61  
+
+65 con 61, Error, 
+
+ordenar tanto a como b ...

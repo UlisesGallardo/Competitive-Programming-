@@ -3,6 +3,14 @@
 	using namespace std;
 	typedef long long int ll;
 	
+	/*
+	Author: Ulises Gallardo
+	1.-Find all unique combinations taking from r to r which are 1022
+	2.-Check any combination of stamps, and choose the samllest 
+	3.- To do do, to travel from one section to another, the stamp has to be in the combination,
+	    if it is, mark each node as visited , this doesn't invalidate any other path 
+	*/
+	
 	void combinationUtil(std::vector<int>& arr, std::vector<int>& combination, std::vector<std::vector<int>>& combinations, int start, int end, int index, int r) { 
 	    if (index == r) { 
 	        combinations.push_back(combination);
@@ -70,7 +78,7 @@
 		    	unique_combinations.insert(combination);
 		    }
 		}
-		
+
 		cin>>n>>m;
 		cin>>r1>>c1>>r2>>c2;
 		

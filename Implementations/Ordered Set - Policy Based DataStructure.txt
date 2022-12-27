@@ -1,0 +1,8 @@
+En caso de error en la importancion, eliminar los todos los números del archivo:
+	hash_standard_resize_policy_imp
+
+que se encuentra en la ruta:
+C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\ext\pb_ds\detail\resize_policy
+
+
+https://www.youtube.com/watch?v=IWyIwLFucU4
